@@ -1,0 +1,24 @@
+# Light theme, enforced. The app is designed around a white canvas and must
+# never inherit the viewer's OS dark mode.
+[theme]
+base = "light"
+primaryColor = "#4F46E5"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F8FAFC"
+textColor = "#0F172A"
+font = "sans serif"
+
+[server]
+maxUploadSize = 25
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = true
+
+# NOTE: this file must stay at the PROJECT ROOT. Streamlit resolves
+# .streamlit/config.toml relative to the current working directory, not to the
+# script's location, so a copy inside frontend/ would be silently ignored.

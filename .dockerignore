@@ -1,0 +1,33 @@
+# Git & IDE
+.git
+.gitignore
+.agents
+.gemini
+.vscode
+.idea
+
+# Python & Environment
+.venv
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+tests/
+
+# Project Data & Temporary Files
+data/uploads/*
+!data/uploads/.gitkeep
+data/chroma/*
+!data/chroma/.gitkeep
+.DS_Store
+Thumbs.db
